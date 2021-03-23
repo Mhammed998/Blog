@@ -1,0 +1,28 @@
+
+.categories{
+    padding:1px 2px 20px 2px;
+    overflow: hidden;
+}
+
+.categories .single-cate{
+    height: 170px;
+    padding: 20px;
+    position: relative;
+}
+
+.categories .single-cate .text{
+    position: relative;
+    z-index: 9;
+
+}
+
+
+.single-cate .cate-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(2,2,2,0.5);
+    z-index: 1;
+}
